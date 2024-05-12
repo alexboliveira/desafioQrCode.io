@@ -15,9 +15,9 @@ class CardQrCode{
     //inicio
     init(){
         
-       return document.getElementById('app').innerHTML=`
+       return document.getElementById('app').innerHTML+=`
 
-       <section id = 'cardQrCode'>
+       <section class = 'cardQrCode'>
          <div class="box">
             <img src="./modules/cardQrCode/img/image-qr-code.png"/>
 

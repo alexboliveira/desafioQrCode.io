@@ -5,6 +5,29 @@ const cardQrCode= new CardQrCode();
 
 
 
+/*Css do #app*/
+
+/*zerando as margens */
+document.querySelector("body").style.margin = "0";
+document.querySelector("body").style.padding = "0";
+
+
+/*Alinhamentos padrões*/
+document.getElementById("app").style.width = "100%";
+document.getElementById("app").style.minHeight = "100vh";
+document.getElementById("app").style.display = "flex";
+document.getElementById("app").style.backgroundColor = "#D9D9D9";
+document.getElementById("app").style.justifyContent = "center";
+document.getElementById("app").style.alignItems = "center";
+document.getElementById("app").style.flexWrap = "wrap";
+document.getElementById("app").style.gap = "10px";
+document.getElementById("app").style.fontFamily = "arial";
+
+
+
+
+
+
 
 
 
